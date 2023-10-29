@@ -1,11 +1,21 @@
 # 도와줘요 스피드 웨건
+**[목표]** <br>
+
+1. **내가 스피드 웨건이 된다 - 개념을 말로 설명하는 것을 연습하기 위함** <br> 말로 설명할 수 없으면, 이해하고 있지 않은 것이나 다름 없다. 이 레포는 말하기 위한 연습장. <br> **핵심은 놓치지 않으면서, 너무 지엽적이거나 길어지지 않는 설명이 목표** 
+
+2. **Divide and Conquer** : 머리속에 잘 정리해 담아두고, 말로 설명할 수 있어야 한다고 생각한 개념들이 **너무 많다.** 너무 많다보니, 의욕도 떨어지고 막막하다. 또 공부해야겠다 싶은 개념들이 많다보니, 생각만 하고 잊어버리는 일이 잦았다. <br> **-> 이런 상황에선 분할 정복이 최고다.** 한번에 다 하려 욕심내지 말고, 필요하다고 생각되는 개념들을 목차처럼 나열하고, 시간이 허락할 때마다 하나씩 작성해보자.
+
+<br>
+
+할 수 있다. 천천히 하나씩 하면 된다.
+
 ## 1. Network
 1. OSI 7 계층
 2. TCP/IP
 3. 3, 4-Way Handshake
 4. TCP vs UPD
 5. DHCP
-6. SSL, TLS Handshake
+6. [HTTPS와 SSL/TLS Handshake](https://github.com/binary-ho/Save-Me-Speedwagon/blob/main/Network/HTTPS%EC%99%80%20SSL-TLS%20Handshake.md)
 7. 소켓과 포트, 웹소켓, 소켓 통신
 8. HTTP/1.1, HTTP/2 차이
 9. RESTful

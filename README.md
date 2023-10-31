@@ -32,9 +32,25 @@
 ## 2. OS
 1. System Call
 2. Interrupt
-3. Process와 Thread
-4. Process vs Thread
-5. Process 주소 공간
+3. [Process와 Thread](https://github.com/binary-ho/Save-Me-Speedwagon/blob/main/Operation%20System/%ED%94%84%EB%A1%9C%EC%84%B8%EC%8A%A4%EC%99%80%20%EC%8A%A4%EB%A0%88%EB%93%9C%2C%20%EC%BB%A8%ED%85%8D%EC%8A%A4%ED%8A%B8%20%EC%8A%A4%EC%9C%84%EC%B9%AD%20%EB%B9%84%EA%B5%90.md)
+4. [Process vs Thread](https://github.com/binary-ho/Save-Me-Speedwagon/blob/main/Operation%20System/%ED%94%84%EB%A1%9C%EC%84%B8%EC%8A%A4%EC%99%80%20%EC%8A%A4%EB%A0%88%EB%93%9C%2C%20%EC%BB%A8%ED%85%8D%EC%8A%A4%ED%8A%B8%20%EC%8A%A4%EC%9C%84%EC%B9%AD%20%EB%B9%84%EA%B5%90.md)
+<details> <summary> 5. Process 주소 공간 </summary>  
+============================================== <br>
+컨텍스트를 저장함. 시분할 시스템에서 프로세스 스위칭시 문맥을 저장하기 위한 자료 구조이고, 저장 및 복원의 오버헤드가 있다. <br> <br>
+여러 프로세스들의 PCB는 링크드 리스트 형태로 줄줄이 달려있다. 스레드는 TCB를 가지고 있다. <br>
+(기억 안 나는건 찾아보기) <br> <br>
+
+1. Process State
+2. PC: Program Counter의 Value
+3. CPU Register의 Value
+4. CPU Scheduling information
+5. Memory Management Information
+6. Accounting Information: 자원 사용 정보
+7. I/O Status Information
+
+==============================================
+</details> 
+
 6. CPU Scheduling
 7. 동기화
 8. 뮤텍스와 세마포어
